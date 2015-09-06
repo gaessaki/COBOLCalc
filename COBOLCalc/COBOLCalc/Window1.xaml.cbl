@@ -87,7 +87,7 @@
        procedure division using by value sender as object e as type System.Windows.RoutedEventArgs.
 	       if ws-decimalFlag equals false then
 		       set ws-decimalFlag to true
-		       if OutputBox::Text equals "0" then
+               if OutputBox::Text equals "0" or ws-firstDigitFlag equals true then
 			       set OutputBox::Text to "0."
 		       else 
 			       string OutputBox::Text delimited by size *>string verb allows us to concatenate strings
@@ -96,6 +96,7 @@
 			       end-string
 			       set OutputBox::Text to ls-post
 		       end-if
+               set ws-firstDigitFlag to false
 	       end-if.
        end method.
 
