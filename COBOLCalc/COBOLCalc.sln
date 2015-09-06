@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{535C04D7-A2A5-47C7-83E0-B340A995CD1F}") = "COBOLCalc", "COBOLCalc\COBOLCalc.cblproj", "{37CA41CC-1D38-4DC7-B6AD-3E9DF74F9AD5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37CA41CC-1D38-4DC7-B6AD-3E9DF74F9AD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37CA41CC-1D38-4DC7-B6AD-3E9DF74F9AD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37CA41CC-1D38-4DC7-B6AD-3E9DF74F9AD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37CA41CC-1D38-4DC7-B6AD-3E9DF74F9AD5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
